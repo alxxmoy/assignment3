@@ -6,7 +6,7 @@
 
 <div class="form-group">
 	
-<?php echo form_label('task Name'); ?>
+<?php echo form_label('Task Name'); ?>
 
 <?php
 $data = array(
@@ -21,7 +21,7 @@ $data = array(
 </div>
 
 <div class="form-group">	
-<?php echo form_label('task Description'); ?>
+<?php echo form_label('Task Description'); ?>
 <?php
 
 $data = array(
@@ -35,6 +35,7 @@ $data = array(
 </div>
 
 <div class="form-group">	
+<?php echo form_label('Due Date'); ?>
 <?php
 $data = array(
 	'class' => 'form-control',
